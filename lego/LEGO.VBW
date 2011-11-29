@@ -1,0 +1,12 @@
+frmMain = 104, 111, 624, 540, C, 17, 22, 705, 576, C
+frmMiniMap = 74, 108, 594, 541, C, 73, 118, 529, 241, C
+modFuncs = 43, 83, 722, 553, C
+frmButtons = 66, 66, 586, 499, C, 44, 44, 249, 249, C
+frmStartup = 154, 129, 671, 562, C, 220, 214, 581, 334, C
+frmStuff = 33, 103, 714, 584, C, 22, 4, 414, 645, C
+frmInLevel = 132, 132, 652, 565, C, -102, 140, 721, 319, C
+frmObjectProperties = 160, 161, 693, 608, C, 78, 43, 373, 239, C
+frmEnemyProperties = 198, 198, 731, 645, C, 196, 270, 516, 483, C
+frmPickupProperties = 66, 66, 599, 513, C, 22, 22, 266, 183, C
+frmPolyProperties = 132, 132, 665, 579, C, 218, 353, 554, 553, C
+frmMovepolyProperties = 154, 154, 687, 601, C, 66, 66, 412, 301, C

@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HajiWorld - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\BuildOutput\HajiWorld.res" /d "_DEBUG" "D:\Mattman\PROJECTS_CD\Projects\HajiWorld\HajiWorld.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp".\BuildOutput\HajiWorld.pch" /YX /Fo".\BuildOutput\\" /Fd".\BuildOutput\\" /FD /GZ /c 
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hajiworld.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwcollision.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwddraw.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwdigifx.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwdinput.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwdsound.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwenemy.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwengine.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwexplosion.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwgfx.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwinput.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwmemcpy.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwmidi.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwobjectile.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwpickup.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwplayer.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwsoundfx.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwutil.cpp"
+"D:\Mattman\PROJECTS_CD\Projects\HajiWorld\hwworld.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib dxguid.lib ddraw.lib dsound.lib dinput.lib winmm.lib digifx.lib /nologo /subsystem:windows /profile /debug /machine:I386 /nodefaultlib:"libc" /out:".\Build\HajiWorld.exe" 
+.\BuildOutput\hajiworld.obj
+.\BuildOutput\hwcollision.obj
+.\BuildOutput\hwddraw.obj
+.\BuildOutput\hwdigifx.obj
+.\BuildOutput\hwdinput.obj
+.\BuildOutput\hwdsound.obj
+.\BuildOutput\hwenemy.obj
+.\BuildOutput\hwengine.obj
+.\BuildOutput\hwexplosion.obj
+.\BuildOutput\hwgfx.obj
+.\BuildOutput\hwinput.obj
+.\BuildOutput\hwmemcpy.obj
+.\BuildOutput\hwmidi.obj
+.\BuildOutput\hwobjectile.obj
+.\BuildOutput\hwpickup.obj
+.\BuildOutput\hwplayer.obj
+.\BuildOutput\hwsoundfx.obj
+.\BuildOutput\hwutil.obj
+.\BuildOutput\hwworld.obj
+.\BuildOutput\HajiWorld.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+hajiworld.cpp
+d:\mattman\projects_cd\projects\hajiworld\hajiworld.cpp(17) : fatal error C1083: Cannot open include file: 'digifx.h': No such file or directory
+hwcollision.cpp
+hwddraw.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwddraw.cpp(15) : fatal error C1083: Cannot open include file: 'digifx.h': No such file or directory
+hwdigifx.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwdigifx.cpp(13) : fatal error C1083: Cannot open include file: 'digifx.h': No such file or directory
+hwdinput.cpp
+hwdsound.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwdsound.h(40) : error C2065: 'DSBCAPS_CTRLDEFAULT' : undeclared identifier
+hwenemy.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwdsound.h(40) : error C2065: 'DSBCAPS_CTRLDEFAULT' : undeclared identifier
+hwengine.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwengine.cpp(17) : fatal error C1083: Cannot open include file: 'digifx.h': No such file or directory
+hwexplosion.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwexplosion.cpp(13) : fatal error C1083: Cannot open include file: 'digifx.h': No such file or directory
+hwgfx.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwgfx.cpp(16) : fatal error C1083: Cannot open include file: 'digifx.h': No such file or directory
+hwinput.cpp
+hwmemcpy.cpp
+hwmidi.cpp
+hwobjectile.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwdsound.h(40) : error C2065: 'DSBCAPS_CTRLDEFAULT' : undeclared identifier
+hwpickup.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwdsound.h(40) : error C2065: 'DSBCAPS_CTRLDEFAULT' : undeclared identifier
+hwplayer.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwplayer.cpp(15) : fatal error C1083: Cannot open include file: 'digifx.h': No such file or directory
+hwsoundfx.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwdsound.h(40) : error C2065: 'DSBCAPS_CTRLDEFAULT' : undeclared identifier
+hwutil.cpp
+hwworld.cpp
+d:\mattman\projects_cd\projects\hajiworld\hwworld.cpp(16) : fatal error C1083: Cannot open include file: 'digifx.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+HajiWorld.exe - 13 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
